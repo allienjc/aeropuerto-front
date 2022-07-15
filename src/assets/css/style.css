@@ -1,0 +1,117 @@
+
+
+  html{
+    overflow: auto;
+    
+  }
+
+  .upper input{
+    text-transform: uppercase;
+}
+
+  .border2{
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+  }
+  .scroll{
+    overflow-y:auto;
+    overflow-x: hidden;
+  }
+
+  .video{
+    
+    width: 100%;
+  }
+  .alto{
+    width: 80%;
+    height: 80%;
+  }
+  .alto2{
+    width: 100%;
+    height: 80%;
+  }
+  .turnogris{
+    background-color: #90A4AE;
+  }
+
+  .numero{
+   font-size: 80px;
+  }
+
+  .border{
+    border-style: solid; border-width: 2px; border-color:#004D40;
+  }
+
+  .headerclass{
+    background-color: #004D40;
+  }
+
+
+  .fade-enter-active, .fade-leave-active {
+    transition: opacity .5s;
+  }
+  .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
+  }
+  .shadow{
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+  }
+  
+
+  .scrolltext1{
+    /* animation properties */
+  color:rgb(255, 252, 49);
+  white-space: nowrap;
+  align-items: left;
+   transform: translateX(100%); 
+  animation: my-animation 35s  linear infinite;
+  }
+
+.scrolltext{
+  /* animation properties */
+  color:rgb(255, 252, 49);
+  white-space: nowrap;
+  align-items: left;
+   transform: translateX(100%); 
+  animation: my-animation 35s  linear;
+}
+
+@keyframes my-animation {
+  0% {transform: translateX(100%);}
+  100% {transform: translateX(-380%);}
+}
+
+.scrolltext2{
+  /* animation properties */
+  color:rgb(255, 252, 49);
+  white-space: nowrap;
+  align-items: left;
+   transform: translateX(100%); 
+  animation: my-animation2 23s  linear;
+}
+
+@keyframes my-animation2 {
+  0% {transform: translateX(100%);}
+  100% {transform: translateX(-250%);}
+}
+
+.scrolltext3{
+  /* animation properties */
+  color:rgb(255, 252, 49);
+  white-space: nowrap;
+  align-items: left;
+   transform: translateX(100%); 
+  animation: my-animation3 18s  linear;
+}
+
+@keyframes my-animation3 {
+  0% {transform: translateX(100%);}
+  100% {transform: translateX(-150%);}
+}
+
+
+
+
+
+
